@@ -21,10 +21,10 @@
           <li class="mr-8 mb-6 lg:mb-0">
             <theme-switcher :theme="theme" @themeChanged="updateTheme" />
           </li>
-          <li class="mr-8 mb-6 lg:mb-0">
+          <!-- <li class="mr-8 mb-6 lg:mb-0">
             <a v-if="$route.path === '/'" href="/#projects" v-scroll-to="'#projects'" class="text-copy-primary hover:text-gray-600">Projects</a>
             <g-link v-else to="/#projects" class="text-copy-primary hover:text-gray-600">Projects</g-link>
-          </li>
+          </li> -->
           <li class="mr-8 mb-6 lg:mb-0">
             <a v-if="$route.path === '/'" href="/#about" v-scroll-to="'#about'" class="text-copy-primary hover:text-gray-600">About</a>
             <g-link v-else to="/#about" class="text-copy-primary hover:text-gray-600">About</g-link>
@@ -33,9 +33,9 @@
             <a v-if="$route.path === '/'" href="/#contact" v-scroll-to="'#contact'" class="text-copy-primary hover:text-gray-600">Contact</a>
             <g-link v-else to="/#contact" class="text-copy-primary hover:text-gray-600">Contact</g-link>
           </li>
-          <li class="mr-8 mb-6 lg:mb-0">
+          <!-- <li class="mr-8 mb-6 lg:mb-0">
             <g-link to="/docs" class="text-copy-primary hover:text-gray-600">Docs</g-link>
-          </li>
+          </li> -->
           <li class="mr-8 mb-6 lg:mb-0">
             <g-link to="/blog" class="text-copy-primary hover:text-gray-600">Blog</g-link>
           </li>
